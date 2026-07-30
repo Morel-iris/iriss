@@ -1,0 +1,65 @@
+/* *{
+    padding: 0;
+    margin: 0;
+
+} */
+
+.top{
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 520;
+}
+.top p{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.time div{
+    text-align: center;
+    width: 10%;
+    padding: 30px 50px;
+    background-color:rgb(255, 255, 14);
+    border-radius: 10px;
+}
+
+.time div span{
+    font-size: 80px;
+    font-weight: 800;
+    padding: 0px;
+}
+
+.time div p{
+    font-size: 20px;
+    padding: 0px;
+}
+
+.dot{
+    margin-top: 70px;
+    color: yellow;
+    font-size: 60px;
+}
+.butt{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.butt button{
+    padding: 15px 30px ;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 540;
+    cursor: pointer;
+    background-color: rgb(83, 62, 62);
+    color: white;
+}
